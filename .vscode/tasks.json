@@ -1,0 +1,50 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: xtensa-lx106-elf-gcc.exe сборка активного файла",
+            "command": "C:/Users/alexm/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-mlongcalls",
+                "-mtext-section-literals"
+            ],
+            "options": {
+                "cwd": "C:/Users/alexm/.platformio/packages/toolchain-xtensa/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Задача создана отладчиком."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: xtensa-lx106-elf-gcc.exe сборка активного файла ver(1)",
+            "command": "C:/Users/alexm/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-mlongcalls",
+                "-mtext-section-literals"
+            ],
+            "options": {
+                "cwd": "C:/Users/alexm/.platformio/packages/toolchain-xtensa/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
